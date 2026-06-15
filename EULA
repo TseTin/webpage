@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End User License Agreement (EULA)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            color: #24292f;
+            background-color: #ffffff;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header-container {
+            border-bottom: 1px solid #d0d7de;
+            padding-bottom: 16px;
+            margin-bottom: 32px;
+            display: block;
+            position: relative;
+            min-height: 50px;
+        }
+        .lang-switcher {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin: 0 0 8px 0;
+            padding-right: 260px;
+        }
+        @media (max-width: 600px) {
+            .header-container {
+                display: block;
+                position: static;
+            }
+            .lang-switcher {
+                position: static;
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+            h1 {
+                padding-right: 0;
+                font-size: 24px;
+            }
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            border-bottom: 1px solid #d0d7de;
+            padding-bottom: 8px;
+            margin-top: 28px;
+            margin-bottom: 16px;
+        }
+        p, ul {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+        ul {
+            padding-left: 2em;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .lang-btn {
+            background-color: #f6f8fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            color: #24292f;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 5px 12px;
+            user-select: none;
+            vertical-align: middle;
+            white-space: nowrap;
+            margin-left: 4px;
+        }
+        .lang-btn:hover {
+            background-color: #f3f4f6;
+            border-color: #8c959f;
+        }
+        .lang-btn.active {
+            background-color: #0969da;
+            color: #ffffff;
+            border-color: #0969da;
+        }
+        .lang-section {
+            display: none;
+        }
+        .lang-section.active {
+            display: block;
+        }
+        .footer {
+            margin-top: 64px;
+            border-top: 1px solid #d0d7de;
+            padding-top: 16px;
+            font-size: 12px;
+            color: #57606a;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="lang-switcher">
+            <button id="btn-en" class="lang-btn active" onclick="switchLang('en')">English</button>
+            <button id="btn-zh-hant" class="lang-btn" onclick="switchLang('zh-hant')">繁體中文</button>
+            <button id="btn-zh-hans" class="lang-btn" onclick="switchLang('zh-hans')">简体中文</button>
+        </div>
+    </div>
+
+    <div id="lang-en" class="lang-section active">
+        <h1>End User License Agreement (EULA)</h1>
+        <p><strong>Last Updated: June 15, 2026</strong></p>
+        
+        <p>Please read this End User License Agreement ("Agreement") carefully before clicking the "I Agree" button, downloading or using 本App ("Application").</p>
+        <p>By downloading or using the Application, you are agreeing to be bound by the terms and conditions of this Agreement. If you do not agree to the terms of this Agreement, do not download or use the Application.</p>
+        
+        <h2>1. Acknowledgment</h2>
+        <p>You and The Developer acknowledge that this Agreement is concluded between you and The Developer only, and not with Apple Inc. ("Apple"). The Developer, not Apple, is solely responsible for the Application and the content thereof.</p>
+        
+        <h2>2. Auto-Renewable Subscriptions</h2>
+        <p>The Application offers auto-renewable subscriptions to unlock premium features.</p>
+        <ul>
+            <li><strong>Payment:</strong> Payment will be charged to your Apple ID account at the confirmation of purchase.</li>
+            <li><strong>Auto-Renewal:</strong> Subscription automatically renews unless it is canceled at least 24 hours before the end of the current billing period.</li>
+            <li><strong>Renewal Charge:</strong> Your account will be charged for renewal within 24 hours prior to the end of the current period, and identify the cost of the renewal.</li>
+            <li><strong>Managing Subscriptions:</strong> You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</li>
+        </ul>
+        
+        <h2>3. Scope of License</h2>
+        <p>The Developer grants you a revocable, non-exclusive, non-transferable, limited license to download, install and use the Application strictly in accordance with the terms of this Agreement on any Apple-branded Products that you own or control and as permitted by the Usage Rules set forth in the Apple Media Services Terms and Conditions.</p>
+        
+        <h2>4. Maintenance and Support</h2>
+        <p>The Developer is solely responsible for providing any maintenance and support services with respect to the Application, as specified in this Agreement, or as required under applicable law. Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the Application.</p>
+        
+        <h2>5. Contact Information</h2>
+        <p>If you have any questions or support requests regarding this Agreement or the Application, please contact us at: <strong>tsetinhang061230@icloud.com</strong></p>
+    </div>
+
+    <div id="lang-zh-hant" class="lang-section">
+        <h1>使用者授權協議 (EULA)</h1>
+        <p><strong>最後更新日期：2026年6月15日</strong></p>
+        
+        <p>在點擊「我同意」按鈕、下載或使用 本App（以下簡稱「本應用程式」）之前，請仔細閱讀本使用者授權協議（以下簡稱「本協議」）。</p>
+        <p>下載或使用本應用程式，即表示您同意受本協議條款和條件的約束。如果您不同意本協議的條款，請勿下載或使用本應用程式。</p>
+        
+        <h2>1. 確認 (Acknowledgment)</h2>
+        <p>您與 開發者 均確認，本協議僅在您與 開發者 之間締結，而非與 Apple Inc.（以下簡稱「Apple」）締結。開發者（而非 Apple）對本應用程式及其內容承擔全部責任。</p>
+        
+        <h2>2. 自動續期訂閱服務 (Auto-Renewable Subscriptions)</h2>
+        <p>本應用程式提供自動續期訂閱服務以解鎖高級功能。</p>
+        <ul>
+            <li><strong>付款扣費：</strong> 付款將在確認購買時從您的 Apple ID 帳戶中扣除。</li>
+            <li><strong>自動續期：</strong> 除非在當前計費週期結束前至少 24 小時關閉自動續期，否則訂閱將自動續期。</li>
+            <li><strong>續期扣費：</strong> 您的帳戶將在當前訂閱期結束前 24 小時內被收取續期費用，並確認續期成本。</li>
+            <li><strong>管理訂閱：</strong> 您可以在購買後前往 App Store 的帳戶設定來管理和取消您的訂閱。</li>
+        </ul>
+        
+        <h2>3. 授權範圍 (Scope of License)</h2>
+        <p>開發者 授予您一項可撤銷的、非獨佔的、不可轉讓的、有限的許可，允許您嚴格按照本協議的條款，在您擁有或控制的任何 Apple 品牌產品上下載、安裝和使用本應用程式，且該使用必須符合 Apple Media Services 服務條款中規定的使用規則。</p>
+        
+        <h2>4. 維護與支援 (Maintenance and Support)</h2>
+        <p>開發者 全權負責提供本協議規定或適用法律要求的本應用程式維護和支援服務。Apple 沒有任何義務為本應用程式提供任何維護和支援服務。</p>
+        
+        <h2>5. 聯絡資訊 (Contact Information)</h2>
+        <p>如果您對本協議或本應用程式有任何疑問或支援需求，請透過以下電子郵件與我們聯絡：<strong>tsetinhang061230@icloud.com</strong></p>
+    </div>
+
+    <div id="lang-zh-hans" class="lang-section">
+        <h1>用户授权协议 (EULA)</h1>
+        <p><strong>最后更新日期：2026年6月15日</strong></p>
+        
+        <p>在点击“我同意”按钮、下载或使用 本App（以下简称“本应用程序”）之前，请仔细阅读本用户授权协议（以下简称“本协议”）。</p>
+        <p>下载或使用本应用程序，即表示您同意受本协议条款和条件的约束。如果您不同意本协议的条款，请勿下载或使用本应用程序。</p>
+        
+        <h2>1. 确认 (Acknowledgment)</h2>
+        <p>您与 开发者 均确认，本协议仅在您与 开发者 之间缔结，而非与 Apple Inc.（以下简称“Apple”）缔结。开发者（而非 Apple）对本应用程序及其内容承担全部责任。</p>
+        
+        <h2>2. 自动续期订阅服务 (Auto-Renewable Subscriptions)</h2>
+        <p>本应用程序提供自动续期订阅服务以解锁高级功能。</p>
+        <ul>
+            <li><strong>付款扣费：</strong> 付款将在确认购买时从您的 Apple ID 账户中扣除。</li>
+            <li><strong>自动续期：</strong> 除非在当前计费周期结束前至少 24 小时关闭自动续期，否则订阅将自动续期。</li>
+            <li><strong>续期扣费：</strong> 您的账户将在当前订阅期结束前 24 小时内被收取续期费用，并确认续期成本。</li>
+            <li><strong>管理订阅：</strong> 您可以在购买后前往 App Store 的账户设置来管理和取消您的订阅。</li>
+        </ul>
+        
+        <h2>3. 授权范围 (Scope of License)</h2>
+        <p>开发者 授予您一项可撤销的、非独占的、不可转让的、有限的许可，允许您严格按照本协议的条款，在您拥有或控制的任何 Apple 品牌产品上下载、安装和使用本应用程序，且该使用必须符合 Apple Media Services 服务条款中规定的使用规则。</p>
+        
+        <h2>4. 维护与支持 (Maintenance and Support)</h2>
+        <p>开发者 全权负责提供本协议规定或适用法律要求的本应用程序维护和支持服务。Apple 没有任何义务为本应用程序提供任何维护和支持服务。</p>
+        
+        <h2>5. 联系信息 (Contact Information)</h2>
+        <p>如果您对本协议或本应用程序有任何疑问或支持需求，请通过以下电子邮件与我们联系：<strong>tsetinhang061230@icloud.com</strong></p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 The Developer. All rights reserved.</p>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.lang-section');
+            sections.forEach(section => section.classList.remove('active'));
+            
+            // Remove active class from all buttons
+            const buttons = document.querySelectorAll('.lang-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            
+            // Show selected section & active button
+            if (lang === 'en') {
+                document.getElementById('lang-en').classList.add('active');
+                document.getElementById('btn-en').classList.add('active');
+            } else if (lang === 'zh-hant') {
+                document.getElementById('lang-zh-hant').classList.add('active');
+                document.getElementById('btn-zh-hant').classList.add('active');
+            } else if (lang === 'zh-hans') {
+                document.getElementById('lang-zh-hans').classList.add('active');
+                document.getElementById('btn-zh-hans').classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
